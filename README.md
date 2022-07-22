@@ -1,2 +1,2 @@
 # portfolio-python-flask-public
-A public version of a Python-Flask web-server serving a sample portfolio website.
+The public version of a Python-Flask web-server serving a sample portfolio website.
