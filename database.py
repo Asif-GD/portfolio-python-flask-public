@@ -1,12 +1,4 @@
-from pymongo import MongoClient
-
-uri = "mongodb+srv://personal.pczif.mongodb.net/?authSource=%24external&authMechanism=MONGODB-X509&retryWrites=true&w=majority"
-client = MongoClient(uri,
-                     tls=True,
-                     tlsCertificateKeyFile="portfolio_server.pem")
-
-db = client["testDB"]
-collection = db["contacts_list"]
+from server import db
 
 
 # insert record
